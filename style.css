@@ -1,0 +1,73 @@
+ @import url('https://fonts.cdnfonts.com/css/product-sans');
+    *,*::after,*::before{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+    body{
+      font-family: 'Product Sans',monospace;
+        -webkit-font-smoothing: antialiased; /* Chrome, Safari */
+  -moz-osx-font-smoothing: grayscale;  /* Firefox on macOS */
+  text-rendering: optimizeLegibility;
+  background-color: black;
+
+    }
+    h1{
+      font-weight:500;
+      font-size:6rem;
+      transition: 0.5s ease-in-out;
+      cursor:default;
+    }
+    div{
+      display: flex;
+      flex-direction: column;
+      gap:1rem;
+      max-width:600px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    section{
+      height:100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url('bg.png');
+      color:white;
+      background-repeat: no-repeat;
+      margin:0 auto;
+      background-size: cover;
+      background-position: center;
+      max-width:1600px;
+      border-radius:10px 10px 0 0;
+    }
+    strong{
+      font-size:2rem;
+    }
+    .buttons{
+      display: flex;
+      gap:1.5rem;
+      flex-direction: row;
+      margin-top:1rem;
+    }
+    button{
+      padding:1rem 2rem;
+      border-radius:100px;
+      border:none;
+      background: #ef4444;
+      color:white;
+      font-size:1.2rem;
+      cursor:pointer;
+      font-weight: 600;
+      font-size:1.2rem;
+    }
+    button:nth-child(2){
+      background: #cb3837;
+      border:2px solid white;
+    }
+    button:first-child{
+      box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.39);
+      background: #ffc328;
+      color:black;
+    }
